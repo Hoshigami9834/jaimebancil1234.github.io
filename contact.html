@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6c96432c36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+        <nav class="navbar">
+            
+                <div class="navbar_container">
+                    <a href="mymain.html" id="navbar_logo"><img src="logo.png" width="40px"></a>
+                    <div class="navbar_toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="navbar_menu">
+                        <li class="navbar_item">
+                        <a href="mymain.html" class="navbar_link" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="mymain.html" class="navbar_link" id="about-page">About</a>
+                    </li>
+                    <li class="navbar_item">
+                                <a href="mymain.html" class="navbar_link" id="services-page">Services</a>
+                        </li>
+                            <li class="navbar_btn">
+                                    <a href="mymain.html" class="button" id="signup">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+                
+                    <form class="box" id="form">
+                        <h1>Contact Us</h1>
+        
+                        <div class="txtbox">
+                            <p class="name">Full Name:</p>
+                            <input class="input-field" type="text" id="Name" placeholder="Enter your name">
+                            <p class="error" id="errorName"></p>
+                        </div>
+                        <div class="number">
+                                <p class="name">number:</p>
+                                <input class="input-field" type="text" id="namber" placeholder="Enter your nmbere">
+                                <p class="error" id="errornumber"></p>
+                            </div>
+                        <div>
+                            <p class="email">Email:</p>
+                            <input class="input-field" type="text" id="Email" placeholder="Enter your email">
+                            <p class="error" id="errorEmail"></p>
+                        </div>
+                        <div>
+                            <p class="msg">Message:</p>
+                            <textarea class="msg" type="text" id="Message" rows="5" placeholder="Thank you"></textarea>
+                            <p class="error" id="errorMessage"></p>
+                        </div>
+                        
+                        <div class="button1">
+                            <button id="btnClickMe">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+            </div>
+            
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="contact.js"></script>
